@@ -14,6 +14,7 @@
 		<webVersion>3.0</webVersion>
 	</properties>
 	<dependencies>
+
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
@@ -38,6 +39,25 @@
 			<groupId>com.zaubersoftware.commons</groupId>
 			<artifactId>commons-spring-taglib</artifactId>
 			<version>3.52</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.hibernate.validator/hibernate-validator -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>6.1.3.Final</version>
+		</dependency>
+<!-- https://mvnrepository.com/artifact/javax.el/javax.el-api -->
+<dependency>
+    <groupId>javax.el</groupId>
+    <artifactId>javax.el-api</artifactId>
+    <version>3.0.0</version>
+</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-validator-cdi</artifactId>
+			<version>6.1.3.Final</version>
 		</dependency>
 
 	</dependencies>

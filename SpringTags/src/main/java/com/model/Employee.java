@@ -1,25 +1,37 @@
 package com.model;
 
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Size;
+
+
+
+
 public class Employee {
-	private String id  ;
-	private String name;
-
-	public String getId() {
-		return id;
-	}
-
-	public void setId(String id) {
-		this.id = id;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
+	
+	@NotNull(message = "is Required")
+	@Size(min = 2, message = "enter minimum 1 char...." )
+	private String empName;
+	private int empAge;
+	
+	public Employee() {
+		System.out.println();
 	}
 	
 	
+	public String getEmpName() {
+		return empName;
+	}
 	
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+	
+	public int getEmpAge() {
+		return empAge;
+	}
+	
+	public void setEmpAge(int empAge) {
+		this.empAge = empAge;
+	}
+
 }
