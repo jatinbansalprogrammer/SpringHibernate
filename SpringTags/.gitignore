@@ -1,8 +1,9 @@
-4/target/
+/target/
 META-INF/
 /.settings/
 .classpath
 .project
-/WebContent/
 bin/
 /target/
+
+

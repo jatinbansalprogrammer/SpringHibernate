@@ -1,0 +1,12 @@
+abc
+ac
+ad
+acd
+accd
+acccccd
+acccccccccd
+am
+
+a.java
+b.java
+ab.java
